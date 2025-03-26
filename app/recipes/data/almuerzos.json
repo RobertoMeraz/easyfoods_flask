@@ -1,0 +1,129 @@
+{
+    "categoria": "Almuerzos",
+    "slug": "almuerzos",
+    "recetas": [
+      {
+        "titulo": "Pollo al Limón con Arroz",
+        "descripcion": "Muslo de pollo jugoso con arroz y vegetales.",
+        "tiempo_preparacion": 30,
+        "calorias": 450,
+        "imagen": "/imagenes/pollo_limon.jpg",
+        "etiquetas": ["Almuerzo", "Económico", "Proteína"],
+        "ingredientes": [
+          {"nombre": "muslo de pollo", "cantidad": "1", "notas": null},
+          {"nombre": "arroz", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "zanahoria", "cantidad": "1", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1/2", "notas": null},
+          {"nombre": "limón", "cantidad": "1", "notas": null},
+          {"nombre": "ajo", "cantidad": "2 dientes", "notas": null},
+          {"nombre": "sal", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimienta", "cantidad": "al gusto", "notas": null},
+          {"nombre": "hierbas secas", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Pasta con Atún y Verduras",
+        "descripcion": "Pasta con atún, perfecta para un almuerzo rápido y nutritivo.",
+        "tiempo_preparacion": 20,
+        "calorias": 420,
+        "imagen": "/imagenes/pasta_atun.jpg",
+        "etiquetas": ["Almuerzo", "Económico", "Rápido"],
+        "ingredientes": [
+          {"nombre": "atún en agua", "cantidad": "1 lata", "notas": null},
+          {"nombre": "pasta", "cantidad": "100g", "notas": "fusilli o penne"},
+          {"nombre": "tomate", "cantidad": "1", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1/4", "notas": null},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "al gusto", "notas": null},
+          {"nombre": "orégano seco", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Filete de Pescado al Horno",
+        "descripcion": "Pescado blanco al horno con verduras de temporada.",
+        "tiempo_preparacion": 25,
+        "calorias": 380,
+        "imagen": "/imagenes/pescado_horno.jpg",
+        "etiquetas": ["Almuerzo", "Económico", "Saludable"],
+        "ingredientes": [
+          {"nombre": "filete de tilapia", "cantidad": "1 (150g)", "notas": null},
+          {"nombre": "papas medianas", "cantidad": "2", "notas": null},
+          {"nombre": "zanahoria", "cantidad": "1", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1/2", "notas": null},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": null},
+          {"nombre": "limón", "cantidad": "al gusto", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "al gusto", "notas": null},
+          {"nombre": "perejil", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Hamburguesa Casera con Papas",
+        "descripcion": "Hamburguesa casera con papas al horno.",
+        "tiempo_preparacion": 25,
+        "calorias": 520,
+        "imagen": "/imagenes/burgir.jpg",
+        "etiquetas": ["Almuerzo", "Económico", "Casero"],
+        "ingredientes": [
+          {"nombre": "carne molida", "cantidad": "150g", "notas": null},
+          {"nombre": "pan de hamburguesa", "cantidad": "1", "notas": null},
+          {"nombre": "papas medianas", "cantidad": "2", "notas": null},
+          {"nombre": "queso americano", "cantidad": "1 rebanada", "notas": null},
+          {"nombre": "lechuga", "cantidad": "al gusto", "notas": null},
+          {"nombre": "tomate", "cantidad": "al gusto", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1/4", "notas": null},
+          {"nombre": "condimentos", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Ensalada Completa de Atún",
+        "descripcion": "Ensalada fresca y nutritiva con atún.",
+        "tiempo_preparacion": 15,
+        "calorias": 350,
+        "imagen": "/imagenes/ensalada_atun.jpg",
+        "etiquetas": ["Almuerzo", "Económico", "Sin Cocción"],
+        "ingredientes": [
+          {"nombre": "atún en agua", "cantidad": "1 lata", "notas": null},
+          {"nombre": "huevos cocidos", "cantidad": "2", "notas": null},
+          {"nombre": "tomate", "cantidad": "1", "notas": null},
+          {"nombre": "lechuga", "cantidad": "al gusto", "notas": null},
+          {"nombre": "maíz", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1/4", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Salteado de Pollo con Verduras",
+        "descripcion": "Salteado rápido y nutritivo de pollo con verduras.",
+        "tiempo_preparacion": 20,
+        "calorias": 400,
+        "imagen": "/imagenes/salteado_pollo.jpg",
+        "etiquetas": ["Almuerzo", "Económico", "Saludable"],
+        "ingredientes": [
+          {"nombre": "pechuga de pollo", "cantidad": "150g", "notas": null},
+          {"nombre": "zanahoria", "cantidad": "1", "notas": null},
+          {"nombre": "pimiento", "cantidad": "1", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1/2", "notas": null},
+          {"nombre": "brócoli", "cantidad": "al gusto", "notas": "pequeño"},
+          {"nombre": "salsa de soja", "cantidad": "al gusto", "notas": null},
+          {"nombre": "aceite vegetal", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Ensalada de Quinoa Mediterránea",
+        "descripcion": "Una ensalada completa llena de proteínas y vegetales.",
+        "tiempo_preparacion": 25,
+        "calorias": 420,
+        "imagen": "/imagenes/ensalada_mediterranea.jpg",
+        "etiquetas": ["Almuerzo", "Vegetariano", "Saludable"],
+        "ingredientes": [
+          {"nombre": "quinoa", "cantidad": "1 taza", "notas": null},
+          {"nombre": "tomates medianos", "cantidad": "2", "notas": null},
+          {"nombre": "pepino", "cantidad": "1", "notas": null},
+          {"nombre": "aceitunas", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "queso feta", "cantidad": "200g", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "al gusto", "notas": null},
+          {"nombre": "jugo de limón", "cantidad": "al gusto", "notas": null}
+        ]
+      }
+    ]
+  }

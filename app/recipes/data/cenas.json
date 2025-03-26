@@ -1,0 +1,158 @@
+{
+    "categoria": "Cenas",
+    "slug": "cenas",
+    "recetas": [
+      {
+        "titulo": "Pechuga de Pollo al Limón con Vegetales",
+        "descripcion": "Pollo jugoso con una salsa cítrica y acompañamiento de vegetales al vapor.",
+        "tiempo_preparacion": 30,
+        "calorias": 350,
+        "imagen": "/imagenes/pollo_limon2.jpg",
+        "etiquetas": ["Cena", "Pollo", "Bajo en carbohidratos"],
+        "ingredientes": [
+          {"nombre": "pechugas de pollo", "cantidad": "2", "notas": null},
+          {"nombre": "limón", "cantidad": "1", "notas": "jugo y ralladura"},
+          {"nombre": "ajo", "cantidad": "2 dientes", "notas": "picados"},
+          {"nombre": "miel", "cantidad": "1 cda", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "1 cda", "notas": null},
+          {"nombre": "brócoli", "cantidad": "1 taza", "notas": null},
+          {"nombre": "zanahoria", "cantidad": "1", "notas": "mediana"},
+          {"nombre": "pimiento rojo", "cantidad": "1/2", "notas": null},
+          {"nombre": "sal", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimienta", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Filete de Tilapia al Ajillo con Arroz",
+        "descripcion": "Pescado blanco suave con sabrosa salsa de ajo y perejil.",
+        "tiempo_preparacion": 25,
+        "calorias": 380,
+        "imagen": "/imagenes/pescado_ajijo.jpg",
+        "etiquetas": ["Cena", "Pescado", "Rápida"],
+        "ingredientes": [
+          {"nombre": "filetes de tilapia", "cantidad": "2", "notas": null},
+          {"nombre": "ajo", "cantidad": "3 dientes", "notas": "picados"},
+          {"nombre": "mantequilla", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "1 cda", "notas": null},
+          {"nombre": "vino blanco", "cantidad": "1/2 taza", "notas": "opcional"},
+          {"nombre": "perejil fresco", "cantidad": "1/4 taza", "notas": null},
+          {"nombre": "arroz blanco", "cantidad": "1 taza", "notas": "cocido"},
+          {"nombre": "limón", "cantidad": "al gusto", "notas": "para servir"}
+        ]
+      },
+      {
+        "titulo": "Ensalada César con Pollo a la Parrilla",
+        "descripcion": "Clásica ensalada César con crujientes croutons y jugoso pollo asado.",
+        "tiempo_preparacion": 25,
+        "calorias": 450,
+        "imagen": "/imagenes/cesar.jpg",
+        "etiquetas": ["Cena", "Pollo", "Ensalada"],
+        "ingredientes": [
+          {"nombre": "pechuga de pollo", "cantidad": "1", "notas": null},
+          {"nombre": "lechuga romana", "cantidad": "1 cabeza", "notas": null},
+          {"nombre": "croutons caseros", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "queso parmesano rallado", "cantidad": "1/4 taza", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": "picado"},
+          {"nombre": "mostaza Dijon", "cantidad": "1 cda", "notas": null},
+          {"nombre": "huevo", "cantidad": "1", "notas": "para aderezo opcional"},
+          {"nombre": "filetes de anchoas", "cantidad": "2", "notas": "opcional"},
+          {"nombre": "jugo de limón", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Omelette de Vegetales con Queso",
+        "descripcion": "Tortilla francesa rellena de vegetales frescos y queso derretido.",
+        "tiempo_preparacion": 20,
+        "calorias": 320,
+        "imagen": "/imagenes/omellet.jpeg",
+        "etiquetas": ["Cena", "Huevo", "Vegetales"],
+        "ingredientes": [
+          {"nombre": "huevos", "cantidad": "4", "notas": null},
+          {"nombre": "leche", "cantidad": "1/4 taza", "notas": null},
+          {"nombre": "pimiento rojo", "cantidad": "1/2", "notas": "picado"},
+          {"nombre": "cebolla", "cantidad": "1/2", "notas": "picada"},
+          {"nombre": "champiñones", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "queso rallado", "cantidad": "1/4 taza", "notas": null},
+          {"nombre": "mantequilla", "cantidad": "1 cda", "notas": null},
+          {"nombre": "sal", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimienta", "cantidad": "al gusto", "notas": null},
+          {"nombre": "orégano", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Wrap de Pollo a la Parrilla",
+        "descripcion": "Opción rápida y versátil con proteína magra y salsa de yogur.",
+        "tiempo_preparacion": 25,
+        "calorias": 400,
+        "imagen": "/imagenes/wrap.png",
+        "etiquetas": ["Cena", "Pollo", "Rápida"],
+        "ingredientes": [
+          {"nombre": "pechuga de pollo", "cantidad": "1", "notas": null},
+          {"nombre": "tortillas integrales", "cantidad": "2", "notas": "grandes"},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": "picado"},
+          {"nombre": "pepino", "cantidad": "1/2", "notas": "rallado"},
+          {"nombre": "lechuga", "cantidad": "1 taza", "notas": null},
+          {"nombre": "tomate", "cantidad": "1", "notas": "en rodajas"},
+          {"nombre": "aceite de oliva", "cantidad": "1 cda", "notas": null},
+          {"nombre": "pimentón", "cantidad": "al gusto", "notas": null},
+          {"nombre": "comino", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Salmón con Verduras al Horno",
+        "descripcion": "Opción premium rica en omega-3 con acompañamiento de vegetales asados.",
+        "tiempo_preparacion": 35,
+        "calorias": 450,
+        "imagen": "/imagenes/salmon.jpg",
+        "etiquetas": ["Cena", "Pescado", "Gourmet"],
+        "ingredientes": [
+          {"nombre": "filetes de salmón", "cantidad": "2", "notas": null},
+          {"nombre": "calabacín", "cantidad": "1", "notas": "en rodajas"},
+          {"nombre": "berenjena", "cantidad": "1", "notas": "pequeña"},
+          {"nombre": "pimiento rojo", "cantidad": "1", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "limón", "cantidad": "1", "notas": null},
+          {"nombre": "hierbas provenzales", "cantidad": "al gusto", "notas": null},
+          {"nombre": "sal", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimienta", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Pollo al Horno con Verduras",
+        "descripcion": "Una cena saludable y completa rica en proteínas.",
+        "tiempo_preparacion": 45,
+        "calorias": 480,
+        "imagen": "/imagenes/pollo_verduras.jpg",
+        "etiquetas": ["Cena", "Saludable", "Alto en proteína"],
+        "ingredientes": [
+          {"nombre": "pechugas de pollo", "cantidad": "2", "notas": null},
+          {"nombre": "zanahorias", "cantidad": "2", "notas": null},
+          {"nombre": "papas medianas", "cantidad": "2", "notas": null},
+          {"nombre": "pimiento rojo", "cantidad": "1", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1", "notas": null},
+          {"nombre": "ajo", "cantidad": "3 dientes", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "al gusto", "notas": null},
+          {"nombre": "hierbas provenzales", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Curry de Garbanzos con Espinacas",
+        "descripcion": "Un plato vegetariano rico en proteínas y fibra.",
+        "tiempo_preparacion": 30,
+        "calorias": 380,
+        "imagen": "/imagenes/curry.jpg",
+        "etiquetas": ["Cena", "Vegetariano", "Económico"],
+        "ingredientes": [
+          {"nombre": "garbanzos", "cantidad": "2 latas", "notas": null},
+          {"nombre": "espinacas frescas", "cantidad": "300g", "notas": null},
+          {"nombre": "leche de coco", "cantidad": "1 lata", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1", "notas": null},
+          {"nombre": "ajo", "cantidad": "3 dientes", "notas": null},
+          {"nombre": "curry en polvo", "cantidad": "2 cucharadas", "notas": null},
+          {"nombre": "tomate triturado", "cantidad": "1 lata", "notas": null},
+          {"nombre": "jengibre fresco", "cantidad": "al gusto", "notas": null}
+        ]
+      }
+    ]
+  }

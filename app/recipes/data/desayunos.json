@@ -1,0 +1,128 @@
+{
+    "categoria": "Desayunos",
+    "slug": "desayunos",
+    "recetas": [
+      {
+        "titulo": "Pancakes de Plátano y Avena",
+        "descripcion": "Pancakes esponjosos y saludables, perfectos para empezar el día.",
+        "tiempo_preparacion": 20,
+        "calorias": 320,
+        "imagen": "/imagenes/pancakes.jpg",
+        "etiquetas": ["Desayuno", "Saludable", "Sin Azúcar"],
+        "ingredientes": [
+          {"nombre": "plátanos maduros", "cantidad": "2", "notas": null},
+          {"nombre": "avena molida", "cantidad": "1 taza", "notas": null},
+          {"nombre": "huevos", "cantidad": "2", "notas": null},
+          {"nombre": "leche", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "canela", "cantidad": "1 cdta", "notas": null},
+          {"nombre": "polvo para hornear", "cantidad": "1 cdta", "notas": null},
+          {"nombre": "miel", "cantidad": "al gusto", "notas": "para decorar"}
+        ]
+      },
+      {
+        "titulo": "Huevos Rancheros Mexicanos",
+        "descripcion": "Un desayuno mexicano tradicional lleno de sabor y proteínas.",
+        "tiempo_preparacion": 25,
+        "calorias": 450,
+        "imagen": "/imagenes/huevos_rancheros.jpg",
+        "etiquetas": ["Desayuno", "Mexicano", "Alto en proteína"],
+        "ingredientes": [
+          {"nombre": "huevos", "cantidad": "4", "notas": null},
+          {"nombre": "tortillas de maíz", "cantidad": "4", "notas": null},
+          {"nombre": "tomates", "cantidad": "2", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1", "notas": null},
+          {"nombre": "chiles verdes", "cantidad": "2", "notas": null},
+          {"nombre": "frijoles refritos", "cantidad": "al gusto", "notas": null},
+          {"nombre": "aguacate", "cantidad": "1/2", "notas": null},
+          {"nombre": "queso rallado", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Smoothie Verde Energético",
+        "descripcion": "Bebida nutritiva llena de vitaminas y minerales.",
+        "tiempo_preparacion": 10,
+        "calorias": 250,
+        "imagen": "/imagenes/licuado_verde.png",
+        "etiquetas": ["Desayuno", "Bebida", "Detox"],
+        "ingredientes": [
+          {"nombre": "espinacas", "cantidad": "2 tazas", "notas": null},
+          {"nombre": "plátano", "cantidad": "1", "notas": null},
+          {"nombre": "manzana verde", "cantidad": "1", "notas": null},
+          {"nombre": "piña", "cantidad": "1 taza", "notas": null},
+          {"nombre": "jengibre", "cantidad": "1 cdta", "notas": null},
+          {"nombre": "agua de coco", "cantidad": "1 taza", "notas": null},
+          {"nombre": "semillas de chía", "cantidad": "1 cdta", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Parfait de Yogur y Granola",
+        "descripcion": "Un desayuno fresco y crujiente rico en probióticos.",
+        "tiempo_preparacion": 15,
+        "calorias": 380,
+        "imagen": "/imagenes/parfait.jpg",
+        "etiquetas": ["Desayuno", "Sin Cocción", "Rico en Proteínas"],
+        "ingredientes": [
+          {"nombre": "yogur griego", "cantidad": "2 tazas", "notas": null},
+          {"nombre": "granola casera", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "frutos rojos", "cantidad": "1 taza", "notas": null},
+          {"nombre": "miel", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "almendras", "cantidad": "1/4 taza", "notas": null},
+          {"nombre": "semillas de chía", "cantidad": "al gusto", "notas": null},
+          {"nombre": "coco rallado", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Tostadas de Aguacate y Huevo",
+        "descripcion": "El clásico desayuno saludable con grasas buenas y proteínas.",
+        "tiempo_preparacion": 15,
+        "calorias": 340,
+        "imagen": "/imagenes/tostadas_huevo.jpg",
+        "etiquetas": ["Desayuno", "Saludable", "Vegetariano"],
+        "ingredientes": [
+          {"nombre": "pan integral", "cantidad": "2 rebanadas", "notas": null},
+          {"nombre": "aguacate maduro", "cantidad": "1", "notas": null},
+          {"nombre": "huevos", "cantidad": "2", "notas": null},
+          {"nombre": "tomates cherry", "cantidad": "al gusto", "notas": null},
+          {"nombre": "brotes de alfalfa", "cantidad": "al gusto", "notas": null},
+          {"nombre": "semillas de sésamo", "cantidad": "al gusto", "notas": null},
+          {"nombre": "sal", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimienta", "cantidad": "al gusto", "notas": null},
+          {"nombre": "chile en hojuelas", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Burrito de Desayuno Proteico",
+        "descripcion": "Un burrito sustancioso perfecto para deportistas.",
+        "tiempo_preparacion": 20,
+        "calorias": 520,
+        "imagen": "/imagenes/burrito_proteico.jpg",
+        "etiquetas": ["Desayuno", "Alto en Proteína", "Para Deportistas"],
+        "ingredientes": [
+          {"nombre": "tortillas de trigo integral", "cantidad": "2", "notas": null},
+          {"nombre": "huevos revueltos", "cantidad": "4", "notas": null},
+          {"nombre": "frijoles negros", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "queso cheddar rallado", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimiento rojo", "cantidad": "1", "notas": null},
+          {"nombre": "aguacate", "cantidad": "1", "notas": null},
+          {"nombre": "salsa picante", "cantidad": "al gusto", "notas": null},
+          {"nombre": "cilantro fresco", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Bowl de Avena con Frutas",
+        "descripcion": "Un desayuno nutritivo y energético.",
+        "tiempo_preparacion": 15,
+        "calorias": 350,
+        "imagen": "/imagenes/bowl_avena.jpg",
+        "etiquetas": ["Desayuno", "Saludable", "Vegetariano"],
+        "ingredientes": [
+          {"nombre": "avena", "cantidad": "1 taza", "notas": null},
+          {"nombre": "leche o agua", "cantidad": "2 tazas", "notas": null},
+          {"nombre": "plátano", "cantidad": "1", "notas": null},
+          {"nombre": "fresas", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "miel", "cantidad": "1 cucharada", "notas": null},
+          {"nombre": "almendras", "cantidad": "al gusto", "notas": null}
+        ]
+      }
+    ]
+  }

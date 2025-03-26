@@ -1,0 +1,115 @@
+{
+    "categoria": "Rápidas",
+    "slug": "rapidas",
+    "recetas": [
+      {
+        "titulo": "Pasta con Atún y Verduras",
+        "descripcion": "Pasta con atún, perfecta para un almuerzo rápido y nutritivo.",
+        "tiempo_preparacion": 20,
+        "calorias": 420,
+        "imagen": "/imagenes/pasta_atun.jpg",
+        "etiquetas": ["Rápido", "Almuerzo", "Económico"],
+        "ingredientes": [
+          {"nombre": "atún en agua", "cantidad": "1 lata", "notas": null},
+          {"nombre": "pasta", "cantidad": "100g", "notas": "fusilli o penne"},
+          {"nombre": "tomate", "cantidad": "1", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1/4", "notas": null},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "al gusto", "notas": null},
+          {"nombre": "orégano seco", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Ensalada Completa de Atún",
+        "descripcion": "Ensalada fresca y nutritiva con atún.",
+        "tiempo_preparacion": 15,
+        "calorias": 350,
+        "imagen": "/imagenes/ensalada_atun.jpg",
+        "etiquetas": ["Rápido", "Sin Cocción", "Almuerzo"],
+        "ingredientes": [
+          {"nombre": "atún en agua", "cantidad": "1 lata", "notas": null},
+          {"nombre": "huevos cocidos", "cantidad": "2", "notas": null},
+          {"nombre": "tomate", "cantidad": "1", "notas": null},
+          {"nombre": "lechuga", "cantidad": "al gusto", "notas": null},
+          {"nombre": "maíz", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1/4", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Omelette de Vegetales con Queso",
+        "descripcion": "Tortilla francesa rellena de vegetales frescos y queso derretido.",
+        "tiempo_preparacion": 20,
+        "calorias": 320,
+        "imagen": "/imagenes/omellet.jpeg",
+        "etiquetas": ["Rápido", "Cena", "Vegetales"],
+        "ingredientes": [
+          {"nombre": "huevos", "cantidad": "4", "notas": null},
+          {"nombre": "leche", "cantidad": "1/4 taza", "notas": null},
+          {"nombre": "pimiento rojo", "cantidad": "1/2", "notas": "picado"},
+          {"nombre": "cebolla", "cantidad": "1/2", "notas": "picada"},
+          {"nombre": "champiñones", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "queso rallado", "cantidad": "1/4 taza", "notas": null},
+          {"nombre": "mantequilla", "cantidad": "1 cda", "notas": null},
+          {"nombre": "sal", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimienta", "cantidad": "al gusto", "notas": null},
+          {"nombre": "orégano", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Wrap de Pollo a la Parrilla",
+        "descripcion": "Opción rápida y versátil con proteína magra y salsa de yogur.",
+        "tiempo_preparacion": 25,
+        "calorias": 400,
+        "imagen": "/imagenes/wrap.png",
+        "etiquetas": ["Rápido", "Almuerzo", "Pollo"],
+        "ingredientes": [
+          {"nombre": "pechuga de pollo", "cantidad": "1", "notas": null},
+          {"nombre": "tortillas integrales", "cantidad": "2", "notas": "grandes"},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": "picado"},
+          {"nombre": "pepino", "cantidad": "1/2", "notas": "rallado"},
+          {"nombre": "lechuga", "cantidad": "1 taza", "notas": null},
+          {"nombre": "tomate", "cantidad": "1", "notas": "en rodajas"},
+          {"nombre": "aceite de oliva", "cantidad": "1 cda", "notas": null},
+          {"nombre": "pimentón", "cantidad": "al gusto", "notas": null},
+          {"nombre": "comino", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Quesadillas de Queso con Champiñones",
+        "descripcion": "Tortillas crujientes rellenas de queso derretido y champiñones salteados.",
+        "tiempo_preparacion": 20,
+        "calorias": 320,
+        "imagen": "/imagenes/quesadillas.jpeg",
+        "etiquetas": ["Rápido", "Vegetariano", "Mexicana"],
+        "ingredientes": [
+          {"nombre": "tortillas de maíz", "cantidad": "4", "notas": null},
+          {"nombre": "queso Oaxaca o mozzarella", "cantidad": "1 taza", "notas": null},
+          {"nombre": "champiñones fileteados", "cantidad": "1 taza", "notas": null},
+          {"nombre": "cebolla picada", "cantidad": "1/2", "notas": null},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": null},
+          {"nombre": "mantequilla", "cantidad": "1 cda", "notas": null},
+          {"nombre": "cilantro fresco", "cantidad": "al gusto", "notas": null},
+          {"nombre": "salsa verde o roja", "cantidad": "al gusto", "notas": "para acompañar"}
+        ]
+      },
+      {
+        "titulo": "Hummus Casero con Pan Pita",
+        "descripcion": "Crema de garbanzos con tahini, perfecta para picar o cenar ligero.",
+        "tiempo_preparacion": 15,
+        "calorias": 300,
+        "imagen": "/imagenes/hummus.png",
+        "etiquetas": ["Rápido", "Vegetariano", "Vegano"],
+        "ingredientes": [
+          {"nombre": "garbanzos", "cantidad": "1 lata", "notas": null},
+          {"nombre": "tahini", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "jugo de limón", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": null},
+          {"nombre": "comino", "cantidad": "1/2 cdta", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "pan pita integral", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimentón", "cantidad": "al gusto", "notas": "para decorar"}
+        ]
+      }
+    ]
+  }

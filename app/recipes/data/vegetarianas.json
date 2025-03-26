@@ -1,0 +1,169 @@
+{
+    "categoria": "Vegetarianas",
+    "slug": "vegetarianas",
+    "recetas": [
+      {
+        "titulo": "Bowl de Avena con Frutas",
+        "descripcion": "Un desayuno nutritivo y energético.",
+        "tiempo_preparacion": 15,
+        "calorias": 350,
+        "imagen": "/imagenes/bowl_avena.jpg",
+        "etiquetas": ["Desayuno", "Saludable", "Vegetariano"],
+        "ingredientes": [
+          {"nombre": "avena", "cantidad": "1 taza", "notas": null},
+          {"nombre": "leche o agua", "cantidad": "2 tazas", "notas": null},
+          {"nombre": "plátano", "cantidad": "1", "notas": null},
+          {"nombre": "fresas", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "miel", "cantidad": "1 cucharada", "notas": null},
+          {"nombre": "almendras", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Ensalada de Quinoa Mediterránea",
+        "descripcion": "Una ensalada completa llena de proteínas y vegetales.",
+        "tiempo_preparacion": 25,
+        "calorias": 420,
+        "imagen": "/imagenes/ensalada_mediterranea.jpg",
+        "etiquetas": ["Vegetariano", "Saludable", "Almuerzo"],
+        "ingredientes": [
+          {"nombre": "quinoa", "cantidad": "1 taza", "notas": null},
+          {"nombre": "tomates medianos", "cantidad": "2", "notas": null},
+          {"nombre": "pepino", "cantidad": "1", "notas": null},
+          {"nombre": "aceitunas", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "queso feta", "cantidad": "200g", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "al gusto", "notas": null},
+          {"nombre": "jugo de limón", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Curry de Lentejas y Espinacas",
+        "descripcion": "Plato reconfortante lleno de proteínas vegetales y especias aromáticas.",
+        "tiempo_preparacion": 40,
+        "calorias": 380,
+        "imagen": "/imagenes/curry_lentejas.jpg",
+        "etiquetas": ["Vegetariano", "Proteínas", "Comida reconfortante"],
+        "ingredientes": [
+          {"nombre": "lentejas cocidas", "cantidad": "1 taza", "notas": null},
+          {"nombre": "espinacas frescas", "cantidad": "2 tazas", "notas": null},
+          {"nombre": "cebolla picada", "cantidad": "1", "notas": null},
+          {"nombre": "ajo", "cantidad": "2 dientes", "notas": null},
+          {"nombre": "leche de coco", "cantidad": "1 lata", "notas": null},
+          {"nombre": "pasta de curry", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "jengibre rallado", "cantidad": "1 cda", "notas": null},
+          {"nombre": "aceite de coco", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "arroz basmati", "cantidad": "al gusto", "notas": "para acompañar"}
+        ]
+      },
+      {
+        "titulo": "Ratatouille al Horno",
+        "descripcion": "Clásico francés de vegetales asados con hierbas provenzales.",
+        "tiempo_preparacion": 50,
+        "calorias": 250,
+        "imagen": "/imagenes/ratatui.jpeg",
+        "etiquetas": ["Vegetariano", "Vegetales", "Sin gluten"],
+        "ingredientes": [
+          {"nombre": "berenjena", "cantidad": "1", "notas": null},
+          {"nombre": "calabacines", "cantidad": "2", "notas": null},
+          {"nombre": "tomates", "cantidad": "2", "notas": null},
+          {"nombre": "pimiento rojo", "cantidad": "1", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "3 cdas", "notas": null},
+          {"nombre": "hierbas provenzales", "cantidad": "al gusto", "notas": null},
+          {"nombre": "sal", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimienta", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Quesadillas de Queso con Champiñones",
+        "descripcion": "Tortillas crujientes rellenas de queso derretido y champiñones salteados.",
+        "tiempo_preparacion": 20,
+        "calorias": 320,
+        "imagen": "/imagenes/quesadillas.jpeg",
+        "etiquetas": ["Vegetariano", "Rápida", "Mexicana"],
+        "ingredientes": [
+          {"nombre": "tortillas de maíz", "cantidad": "4", "notas": null},
+          {"nombre": "queso Oaxaca o mozzarella", "cantidad": "1 taza", "notas": null},
+          {"nombre": "champiñones fileteados", "cantidad": "1 taza", "notas": null},
+          {"nombre": "cebolla picada", "cantidad": "1/2", "notas": null},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": null},
+          {"nombre": "mantequilla", "cantidad": "1 cda", "notas": null},
+          {"nombre": "cilantro fresco", "cantidad": "al gusto", "notas": null},
+          {"nombre": "salsa verde o roja", "cantidad": "al gusto", "notas": "para acompañar"}
+        ]
+      },
+      {
+        "titulo": "Curry de Garbanzos con Espinacas",
+        "descripcion": "Un plato vegetariano rico en proteínas y fibra.",
+        "tiempo_preparacion": 30,
+        "calorias": 380,
+        "imagen": "/imagenes/curry.jpg",
+        "etiquetas": ["Vegetariano", "Económico", "Cena"],
+        "ingredientes": [
+          {"nombre": "garbanzos", "cantidad": "2 latas", "notas": null},
+          {"nombre": "espinacas frescas", "cantidad": "300g", "notas": null},
+          {"nombre": "leche de coco", "cantidad": "1 lata", "notas": null},
+          {"nombre": "cebolla", "cantidad": "1", "notas": null},
+          {"nombre": "ajo", "cantidad": "3 dientes", "notas": null},
+          {"nombre": "curry en polvo", "cantidad": "2 cucharadas", "notas": null},
+          {"nombre": "tomate triturado", "cantidad": "1 lata", "notas": null},
+          {"nombre": "jengibre fresco", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Buddha Bowl de Quinoa y Vegetales",
+        "descripcion": "Completo bowl con granos, vegetales y aderezo de tahini.",
+        "tiempo_preparacion": 30,
+        "calorias": 400,
+        "imagen": "/imagenes/quinoa.jpg",
+        "etiquetas": ["Vegetariano", "Completa", "Meal prep"],
+        "ingredientes": [
+          {"nombre": "quinoa cocida", "cantidad": "1 taza", "notas": null},
+          {"nombre": "aguacate", "cantidad": "1/2", "notas": null},
+          {"nombre": "garbanzos cocidos", "cantidad": "1 taza", "notas": null},
+          {"nombre": "zanahoria rallada", "cantidad": "1", "notas": null},
+          {"nombre": "repollo morado", "cantidad": "1 taza", "notas": null},
+          {"nombre": "pepino", "cantidad": "1/2", "notas": "en rodajas"},
+          {"nombre": "tahini", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "jugo de limón", "cantidad": "al gusto", "notas": null},
+          {"nombre": "semillas de girasol", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Espagueti al Pesto con Tomates Secos",
+        "descripcion": "Pasta con salsa pesto casera y tomates secos para un toque gourmet.",
+        "tiempo_preparacion": 25,
+        "calorias": 450,
+        "imagen": "/imagenes/pesto.jpg",
+        "etiquetas": ["Vegetariano", "Italiana", "Gourmet"],
+        "ingredientes": [
+          {"nombre": "espagueti", "cantidad": "200g", "notas": null},
+          {"nombre": "albahaca fresca", "cantidad": "2 tazas", "notas": null},
+          {"nombre": "piñones o nueces", "cantidad": "1/4 taza", "notas": null},
+          {"nombre": "queso parmesano", "cantidad": "1/2 taza", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "1/3 taza", "notas": null},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": null},
+          {"nombre": "tomates secos", "cantidad": "1/4 taza", "notas": null},
+          {"nombre": "sal", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimienta", "cantidad": "al gusto", "notas": null}
+        ]
+      },
+      {
+        "titulo": "Hummus Casero con Pan Pita",
+        "descripcion": "Crema de garbanzos con tahini, perfecta para picar o cenar ligero.",
+        "tiempo_preparacion": 15,
+        "calorias": 300,
+        "imagen": "/imagenes/hummus.png",
+        "etiquetas": ["Vegetariano", "Vegano", "Rápido"],
+        "ingredientes": [
+          {"nombre": "garbanzos", "cantidad": "1 lata", "notas": null},
+          {"nombre": "tahini", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "jugo de limón", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "ajo", "cantidad": "1 diente", "notas": null},
+          {"nombre": "comino", "cantidad": "1/2 cdta", "notas": null},
+          {"nombre": "aceite de oliva", "cantidad": "2 cdas", "notas": null},
+          {"nombre": "pan pita integral", "cantidad": "al gusto", "notas": null},
+          {"nombre": "pimentón", "cantidad": "al gusto", "notas": "para decorar"}
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,266 @@
+        /* Estilos del encabezado */
+        .recipe-header {
+            text-align: center;
+            padding: 6rem 2rem 3rem;
+            background: linear-gradient(135deg, #fff9f9 0%, #ffffff 100%);
+            position: relative;
+            margin-bottom: 3rem;
+        }
+
+        .recipe-header:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background-color: #ff6b6b;
+            border-radius: 2px;
+        }
+
+        .site-title {
+            font-size: 1.2rem;
+            color: #888;
+            margin-bottom: 0.5rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .recipe-main-title {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+            line-height: 1.2;
+        }
+
+        .recipe-intro {
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        /* Estilos de la imagen principal */
+        .recipe-hero-image {
+            width: 100%;
+            max-width: 800px;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            margin: 2rem auto;
+            display: block;
+            border: 1px solid #eee;
+        }
+
+        /* Estilos de los metadatos */
+        .recipe-meta {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 100px;
+        }
+
+        .meta-icon {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: #ff6b6b;
+        }
+
+        .meta-label {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 0.25rem;
+            text-transform: uppercase;
+        }
+
+        .meta-value {
+            font-weight: 600;
+            color: #333;
+            font-size: 1.1rem;
+        }
+
+        /* Estilos de los botones */
+        .add-plan-btn {
+            background-color: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+            box-shadow: 0 4px 6px rgba(255, 107, 107, 0.2);
+            margin-top: 1rem;
+        }
+
+        .add-plan-btn:hover {
+            background-color: #e05555;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(255, 107, 107, 0.3);
+        }
+
+        .back-btn {
+            background-color: #f0f0f0;
+            color: #333;
+            border: none;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            font-size: 1rem;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s;
+            margin-right: 1rem;
+            text-decoration: none;
+        }
+
+        .back-btn:hover {
+            background-color: #e0e0e0;
+            transform: translateY(-2px);
+        }
+
+        /* Estilos de la sección de ingredientes */
+        .ingredients-section {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .section-title {
+            color: black;
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 1.5rem;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .section-title:after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background-color: black;
+        }
+
+        .ingredients-list {
+            columns: 2;
+            column-gap: 2rem;
+            padding-left: 1.5rem;
+        }
+
+        .ingredients-list li {
+            margin-bottom: 0.8rem;
+            break-inside: avoid;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .ingredients-list li:before {
+            color: #ff6b6b;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        /* Estilos de la sección de macros */
+        .macros-section {
+            max-width: 800px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+
+        .macros-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            text-align: center;
+        }
+
+        .macro-item {
+            padding: 1.5rem 1rem;
+            background: #f9f9f9;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+
+        .macro-item:hover {
+            transform: translateY(-5px);
+            background: #fff5f5;
+        }
+
+        .macro-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: #333;
+            /* Cambiado a negro */
+            margin-bottom: 0.5rem;
+        }
+
+        .macro-label {
+            color: #666;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Estilos del botón de volver */
+        .back-button-container {
+            text-align: center;
+            margin: 2rem auto;
+            max-width: 800px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .recipe-main-title {
+                font-size: 2rem;
+            }
+
+            .recipe-hero-image {
+                height: 300px;
+            }
+
+            .macros-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .ingredients-list {
+                columns: 1;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .recipe-meta {
+                gap: 1rem;
+            }
+
+            .macros-grid {
+                grid-template-columns: 1fr;
+            }
+        }
