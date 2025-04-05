@@ -1,0 +1,35 @@
+{% macro render_field(field) %}
+<div class="form-group">
+    {{ field.label }}
+    {{ field(class="form-control" + (" is-invalid" if field.errors else "")) }}
+    {% if field.errors %}
+    <div class="invalid-feedback">
+        {% for error in field.errors %}
+        <span>{{ error }}</span>
+        {% endfor %}
+    </div>
+    {% endif %}
+</div>
+{% endmacro %}
+
+{% macro render_recipe_card(recipe) %}
+<article class="recipe-card">
+    <a href="{{ url_for('recipes.detail', recipe_id=recipe.id) }}">
+        <img src="{{ url_for('static', filename='images/recipes/' + recipe.image) }}" 
+             alt="{{ recipe.title }}" class="recipe-image">
+    </a>
+    <div class="recipe-content">
+        <h2 class="recipe-title">{{ recipe.title }}</h2>
+        <div class="recipe-meta">
+            <span>{{ recipe.time }} min</span>
+            <span>{{ recipe.calories }} kcal</span>
+        </div>
+        <p class="recipe-description">{{ recipe.description }}</p>
+        <div class="recipe-tags">
+            {% for tag in recipe.tags %}
+            <span class="tag">{{ tag }}</span>
+            {% endfor %}
+        </div>
+    </div>
+</article>
+{% endmacro %}

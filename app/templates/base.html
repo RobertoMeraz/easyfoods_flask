@@ -4,29 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Easy Foods{% endblock %}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    {% block extra_css %}{% endblock %}
+    {% block styles %}{% endblock %}
 </head>
 <body>
-    {% include 'partials/navbar.html' %}
+    {% include 'components/header.html' %}
     
-    <main class="container">
-        {% with messages = get_flashed_messages(with_categories=true) %}
-            {% if messages %}
-                {% for category, message in messages %}
-                    <div class="alert alert-{{ category }}">
-                        {{ message }}
-                    </div>
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
-        
+    <main class="main-content">
         {% block content %}{% endblock %}
     </main>
-
-    {% include 'partials/footer.html' %}
     
+    {% include 'components/footer.html' %}
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
     {% block scripts %}{% endblock %}
 </body>
 </html>

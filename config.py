@@ -1,22 +1,16 @@
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
 
-# Cargar variables del archivo .env
 load_dotenv()
 
 class Config:
-    # Configuración esencial
-    SECRET_KEY = os.getenv('SECRET_KEY', 'una_clave_secreta_por_defecto')
-    
-    # Configuración de MySQL (versión lista para usar)
-    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 
-        'mysql+pymysql://root:easy54321.0@localhost:3306/easyfoods')
-    
+    # Database
+    SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL', 'mysql://root:@localhost/easyfood')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    SQLALCHEMY_ENGINE_OPTIONS = {
-        'pool_recycle': 299,
-        'pool_pre_ping': True
-    }
-
-    # Configuración adicional para MySQL 8.0+
-    SQLALCHEMY_POOL_RECYCLE = 299  # Para evitar timeout de conexión
+    
+    # API
+    API_PREFIX = '/api/v1'
+    CORS_ORIGINS = os.getenv('CORS_ORIGINS', '*').split(',')
+    
+    # Security
+    SECRET_KEY = os.getenv('SECRET_KEY', 'dev-key-segura')

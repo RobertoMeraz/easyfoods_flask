@@ -1,117 +1,83 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Easy Foods - Crear Cuenta</title>
-    <link rel="stylesheet" href="/app//static/css/estilo_registro.css">
-</head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav-container">
-            <a href="/" class="logo">🌱 Easy Foods</a>
-            <ul class="nav-menu">
-                <li><a href="/" class="nav-link">Inicio</a></li>
-                <li><a href="recetas.html" class="nav-link">Recetas</a></li>
-                <li><a href="sobre_nosotros.html" class="nav-link">Sobre Nosotros</a></li>
-                <li><a href="login.html" class="nav-link">Únase a nosotros</a></li>
-                <li><a href="contacto.html" class="nav-link highlight">Contáctenos</a></li>
-            </ul>
-        </nav>
-    </header>
+{% extends "base.html" %}
 
-    <!-- Register Section -->
-    <main>
-        <section class="register-section">
-            <div class="register-container">
-                <h2>Crear Nueva Cuenta</h2>
-                <form class="register-form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="nombre">Nombre</label>
-                            <input type="text" id="nombre" name="nombre" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="apellido">Apellido</label>
-                            <input type="text" id="apellido" name="apellido" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Correo Electrónico</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="password">Contraseña</label>
-                        <input type="password" id="password" name="password" required>
-                        <small class="password-hint">La contraseña debe tener al menos 8 caracteres, incluir mayúsculas, minúsculas y números.</small>
-                    </div>
-                    <div class="form-group">
-                        <label for="confirm-password">Confirmar Contraseña</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required>
-                    </div>
-                    <div class="form-preferences">
-                        <h3>Preferencias de Cocina</h3>
-                        <div class="preferences-grid">
-                            <label class="preference-option">
-                                <input type="checkbox" name="preferences" value="vegetariana">
-                                Vegetariana
-                            </label>
-                            <label class="preference-option">
-                                <input type="checkbox" name="preferences" value="vegana">
-                                Vegana
-                            </label>
-                            <label class="preference-option">
-                                <input type="checkbox" name="preferences" value="sin-gluten">
-                                Sin Gluten
-                            </label>
-                            <label class="preference-option">
-                                <input type="checkbox" name="preferences" value="sin-lactosa">
-                                Sin Lactosa
-                            </label>
-                        </div>
-                    </div>
-                    <div class="form-terms">
-                        <label class="terms-checkbox">
-                            <input type="checkbox" name="terms" required>
-                            Acepto los <a href="/terminos">términos y condiciones</a> y la <a href="/privacidad">política de privacidad</a>
-                        </label>
-                    </div>
-                    <button type="submit" class="btn primary">Crear Cuenta</button>
-                </form>
-                <div class="login-link">
-                    ¿Ya tienes una cuenta? <a href="login.html">Inicia sesión aquí</a>
+{% block title %}Crear Cuenta - Easy Foods{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="register-section">
+    <div class="register-container">
+        <h2>Crear Nueva Cuenta</h2>
+        <form class="register-form" method="POST" action="{{ url_for('auth.register') }}">
+            {{ form.hidden_tag() }}
+            <div class="form-row">
+                <div class="form-group">
+                    {{ form.first_name.label }}
+                    {{ form.first_name(class="form-control") }}
+                    {% for error in form.first_name.errors %}
+                    <span class="error-message">{{ error }}</span>
+                    {% endfor %}
+                </div>
+                <div class="form-group">
+                    {{ form.last_name.label }}
+                    {{ form.last_name(class="form-control") }}
+                    {% for error in form.last_name.errors %}
+                    <span class="error-message">{{ error }}</span>
+                    {% endfor %}
                 </div>
             </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>Easy Foods</h3>
-                <p>Haciendo la cocina fácil y accesible para todos.</p>
+            <div class="form-group">
+                {{ form.email.label }}
+                {{ form.email(class="form-control") }}
+                {% for error in form.email.errors %}
+                <span class="error-message">{{ error }}</span>
+                {% endfor %}
             </div>
-            <div class="footer-section">
-                <h3>Enlaces Rápidos</h3>
-                <ul>
-                    <li><a href="recetas.html">Recetas</a></li>
-                    <li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+            <div class="form-group">
+                {{ form.password.label }}
+                {{ form.password(class="form-control") }}
+                <small class="password-hint">
+                    La contraseña debe tener al menos 8 caracteres, incluir mayúsculas, minúsculas y números.
+                </small>
+                {% for error in form.password.errors %}
+                <span class="error-message">{{ error }}</span>
+                {% endfor %}
             </div>
-            <div class="footer-section">
-                <h3>Síguenos</h3>
-                <div class="social-links">
-                    <a href="#" class="social-link">Twitter</a>
-                    <a href="#" class="social-link">LinkedIn</a>
+            <div class="form-group">
+                {{ form.password2.label }}
+                {{ form.password2(class="form-control") }}
+                {% for error in form.password2.errors %}
+                <span class="error-message">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <div class="form-preferences">
+                <h3>Preferencias de Cocina</h3>
+                <div class="preferences-grid">
+                    {% for preference in form.preferences %}
+                    <label class="preference-option">
+                        {{ preference() }}
+                        {{ preference.label.text }}
+                    </label>
+                    {% endfor %}
                 </div>
             </div>
+            <div class="form-terms">
+                <label class="terms-checkbox">
+                    {{ form.accept_tos() }}
+                    Acepto los <a href="{{ url_for('main.terms') }}">términos y condiciones</a> y la 
+                    <a href="{{ url_for('main.privacy') }}">política de privacidad</a>
+                </label>
+                {% for error in form.accept_tos.errors %}
+                <span class="error-message">{{ error }}</span>
+                {% endfor %}
+            </div>
+            <button type="submit" class="btn primary">Crear Cuenta</button>
+        </form>
+        <div class="login-link">
+            ¿Ya tienes una cuenta? <a href="{{ url_for('auth.login') }}">Inicia sesión aquí</a>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Easy Foods. Todos los derechos reservados.</p>
-        </div>
-    </footer>
-</body>
-</html>
+    </div>
+</section>
+{% endblock %}

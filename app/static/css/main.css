@@ -1,0 +1,12 @@
+body {
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: #28a745 !important;
+}
+.recipe-card {
+    transition: transform 0.3s;
+}
+.recipe-card:hover {
+    transform: scale(1.03);
+}

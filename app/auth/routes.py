@@ -1,9 +1,8 @@
 from flask import render_template, redirect, url_for, flash
 from flask_login import login_user, logout_user, current_user
-from werkzeug.security import generate_password_hash, check_password_hash
 from app.auth.forms import LoginForm, RegistrationForm
 from app.models import User
-from app import db
+from app import db, bcrypt
 from . import auth_bp
 
 @auth_bp.route('/login', methods=['GET', 'POST'])
@@ -13,24 +12,25 @@ def login():
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(email=form.email.data).first()
-        if user is None or not user.check_password(form.password.data):
-            flash('Email o contraseña inválidos')
-            return redirect(url_for('auth.login'))
-        login_user(user, remember=form.remember_me.data)
-        return redirect(url_for('recipes.index'))
+        if user and user.check_password(form.password.data):
+            login_user(user, remember=form.remember.data)
+            flash('¡Bienvenido!', 'success')
+            return redirect(url_for('main.index'))
+        flash('Email o contraseña incorrectos.', 'danger')
     return render_template('auth/login.html', form=form)
 
 @auth_bp.route('/register', methods=['GET', 'POST'])
 def register():
-    if current_user.is_authenticated:
-        return redirect(url_for('main.index'))
     form = RegistrationForm()
     if form.validate_on_submit():
-        user = User(username=form.username.data, email=form.email.data)
-        user.set_password(form.password.data)
+        user = User(
+            username=form.username.data,
+            email=form.email.data,
+            password=form.password.data  # Hasheado automáticamente
+        )
         db.session.add(user)
         db.session.commit()
-        flash('¡Registro exitoso! Ahora puedes iniciar sesión.')
+        flash('¡Cuenta creada! Ahora puedes iniciar sesión.', 'success')
         return redirect(url_for('auth.login'))
     return render_template('auth/register.html', form=form)
 

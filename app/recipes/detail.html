@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}{{ recipe.title }} - Easy Foods{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/recipes.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/recipe_detail.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="recipe-header">
+    <div class="site-title">EASY FOODS</div>
+    <h1 class="recipe-main-title">{{ recipe.title }}</h1>
+    <p class="recipe-intro">{{ recipe.long_description }}</p>
+    
+    <div class="recipe-meta">
+        <div class="meta-item">
+            <span class="meta-icon">⏱️</span>
+            <span class="meta-label">Tiempo</span>
+            <span class="meta-value">{{ recipe.time }} min</span>
+        </div>
+        <div class="meta-item">
+            <span class="meta-icon">🔥</span>
+            <span class="meta-label">Calorías</span>
+            <span class="meta-value">{{ recipe.calories }} kcal</span>
+        </div>
+        <div class="meta-item">
+            <span class="meta-icon">🍽️</span>
+            <span class="meta-label">Porciones</span>
+            <span class="meta-value">{{ recipe.servings }}</span>
+        </div>
+    </div>
+    
+    <button class="add-plan-btn">Añadir al plan semanal</button>
+</section>
+
+<img src="{{ url_for('static', filename='images/recipes/' + recipe.image) }}" 
+     alt="{{ recipe.title }}" class="recipe-hero-image">
+
+<div class="ingredients-section">
+    <h2 class="section-title">Ingredientes</h2>
+    <ul class="ingredients-list">
+        {% for ingredient in recipe.ingredients %}
+        <li>{{ ingredient }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<div class="macros-section">
+    <h2 class="section-title">Información Nutricional</h2>
+    <div class="macros-grid">
+        <div class="macro-item">
+            <div class="macro-value">{{ recipe.nutrition.calories }}</div>
+            <div class="macro-label">Calorías</div>
+        </div>
+        <div class="macro-item">
+            <div class="macro-value">{{ recipe.nutrition.protein }}g</div>
+            <div class="macro-label">Proteínas</div>
+        </div>
+        <div class="macro-item">
+            <div class="macro-value">{{ recipe.nutrition.carbs }}g</div>
+            <div class="macro-label">Carbohidratos</div>
+        </div>
+        <div class="macro-item">
+            <div class="macro-value">{{ recipe.nutrition.fat }}g</div>
+            <div class="macro-label">Grasas</div>
+        </div>
+    </div>
+</div>
+
+<div class="back-button-container">
+    <a href="{{ url_for('recipes.list') }}" class="back-btn">← Volver a Recetas</a>
+</div>
+{% endblock %}

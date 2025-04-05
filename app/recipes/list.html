@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Recetas - Easy Foods{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/recipes.css') }}">
+{% endblock %}
+
+{% block content %}
+<section class="recipes-header">
+    <h1>Explora Nuestras Recetas</h1>
+    <div class="search-section">
+        <input type="text" class="search-bar" placeholder="Buscar recetas...">
+        <div class="filters">
+            <a href="{{ url_for('recipes.list') }}"><button class="filter-btn">Todas</button></a>
+            <a href="{{ url_for('recipes.breakfast') }}"><button class="filter-btn">Desayunos</button></a>
+            <a href="{{ url_for('recipes.lunch') }}"><button class="filter-btn">Almuerzos</button></a>
+            <a href="{{ url_for('recipes.dinner') }}"><button class="filter-btn">Cenas</button></a>
+            <a href="{{ url_for('recipes.vegetarian') }}"><button class="filter-btn">Vegetarianas</button></a>
+            <a href="{{ url_for('recipes.quick') }}"><button class="filter-btn">Rápidas</button></a>
+        </div>
+    </div>
+</section>
+
+<main class="recipes-grid">
+    {% for recipe in recipes %}
+    <article class="recipe-card">
+        <a href="{{ url_for('recipes.detail', recipe_id=recipe.id) }}">
+            <img src="{{ url_for('static', filename='images/recipes/' + recipe.image) }}" 
+                 alt="{{ recipe.title }}" class="recipe-image">
+        </a>
+        <div class="recipe-content">
+            <h2 class="recipe-title">{{ recipe.title }}</h2>
+            <div class="recipe-meta">
+                <span>{{ recipe.time }} min</span>
+                <span>{{ recipe.calories }} kcal por porción</span>
+            </div>
+            <p class="recipe-description">{{ recipe.description }}</p>
+            <div class="recipe-tags">
+                {% for tag in recipe.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+</main>
+{% endblock %}
